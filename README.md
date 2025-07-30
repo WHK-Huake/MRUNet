@@ -3,6 +3,14 @@ Multi-Scale Retinex Unfolding Network for Low-Light Image Enhancement.
 
 Our peper has been accepted by TMM. 
 
+## Environment
+* Python
+* Pytorch
+* numpy
+* tqdm
+* pandas
+
+
 ## Train
 Download LOL dataset from (https://daooshee.github.io/BMVC2018website/) and change the dataset path in `training.yaml`, and then run
 
@@ -21,7 +29,7 @@ python test.py
 or unpair dataset run
 
 ```
-python test_unpair.py
+python test_unpaired.py
 ```
 
 ## Citation
